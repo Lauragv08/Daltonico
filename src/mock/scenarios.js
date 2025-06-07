@@ -2,9 +2,9 @@ export const initialScenario = {
   title: "Sala de Decisiones",
   description: "Frente a ti hay tres puertas. Un cartel dice: 'No pasar por la puerta roja'",
   doors: [
-    { color: "red", label: "Puerta Roja", disabled: false },
-    { color: "blue", label: "Puerta Azul", disabled: false },
-    { color: "green", label: "Puerta Verde", disabled: false }
+    { color: "red", label: "", disabled: false },
+    { color: "blue", label: "", disabled: false },
+    { color: "green", label: "", disabled: false }
   ]
 };
 
@@ -12,9 +12,9 @@ export const blueDoorScenario = {
   title: "Elige una puerta",
   description: "Has elegido sabiamente. Ahora hay tres puertas frente a ti. No pases por la marrón",
   doors: [
-    { color: "skyblue", label: "Puerta Celeste", disabled: false },
-    { color: "brown", label: "Puerta marrón", disabled: false },
-    { color: "green", label: "Puerta verde", disabled: false }
+    { color: "skyblue", label: "", disabled: false },
+    { color: "brown", label: "", disabled: false },
+    { color: "green", label: "", disabled: false }
   ]
 };
 
