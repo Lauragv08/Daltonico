@@ -22,7 +22,7 @@ const App = () => {
           description: "Has tomado un atajo. Elige cuidadosamente.",
           doors: [
             { color: "blue", label: "", disabled: false },
-            { color: "red", label: "", warning: "No cruce por la roja", disabled: false },
+            { color: "red", label: "", disabled: false },
             { color: "black", label: "", disabled: false }
           ]
         });
