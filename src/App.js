@@ -21,9 +21,9 @@ const App = () => {
           ...blueDoorScenario,
           description: "Has tomado un atajo. Elige cuidadosamente.",
           doors: [
-            { color: "blue", label: "Puerta Azul", disabled: false },
-            { color: "red", label: "Puerta Roja", warning: "No cruce por la roja", disabled: false },
-            { color: "black", label: "Puerta Negra", disabled: false }
+            { color: "blue", label: "", disabled: false },
+            { color: "red", label: "", warning: "No cruce por la roja", disabled: false },
+            { color: "black", label: "", disabled: false }
           ]
         });
       } else {
@@ -37,9 +37,9 @@ const App = () => {
           title: "Decisión Final",
           description: "Estás cerca... Elige sabiamente. Elige la puerta roja",
           doors: [
-            { color: "green", label: "Puerta Verde", disabled: false },
-            { color: "purple", label: "Puerta Morado", disabled: false },
-            { color: "white", label: "Puerta blanca", disabled: false }
+            { color: "green", label: "", disabled: false },
+            { color: "purple", label: "", disabled: false },
+            { color: "white", label: "", disabled: false }
           ]
         });
       } else {
